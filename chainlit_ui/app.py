@@ -10,13 +10,14 @@ load_dotenv()
 project_id = os.environ["GOOGLE_CLOUD_PROJECT"]
 location = os.environ["GOOGLE_CLOUD_LOCATION"]
 bucket_name = f"gs://{project_id}-bucket"
+agent_resource_name = os.environ["AGENT_RESOURCE_NAME"]
 
 client = vertexai.Client(
     project=project_id,
     location=location,
 )
 
-agent = client.agent_engines.get(name="YOUR_AGENT_RESOURCE_NAME")
+agent = client.agent_engines.get(name=agent_resource_name)
 
 def convert_img_tags_to_chainlit_images(msg):
     img_list = []
