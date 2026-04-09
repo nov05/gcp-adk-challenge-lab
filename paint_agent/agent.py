@@ -58,15 +58,15 @@ root_agent = Agent(
       like to learn more about the different paint products offered by
       Cymbal Shops.
     - If the user say yes, include information about all paint products including
-      coverage rate and price.
-    - If price and coverage rate aren't returned for some products, look them
-      up individually.
-    - If the user wants to see a picture of a paint, show the corresponding images
-      in an img tag with a height attribute of 300px:
+      coverage rate, price and the corresponding image if it is available using an 
+      <img> tag with a height attribute of 300px.
         - Project Paint: {img_path_1}
         - SureCoverage: {img_path_2}
         - EcoGreen: {img_path_3}
         - Forever Paint: {img_path_4}
+    - Always use one <img> tag per image.
+    - If price and coverage rate aren't returned for some products, look them
+      up individually.
     - After they have selected a paint product, use your 'set_session_value' tool
       to store their selection in the session dictionary with the key
       'SELECTED_PAINT', its coverage rate in 'COVERAGE_RATE', and its price
