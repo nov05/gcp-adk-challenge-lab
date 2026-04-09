@@ -8,6 +8,7 @@ from .sub_agents.coverage_calculator.agent import coverage_calculator_agent
 load_dotenv()
 
 RETRY_OPTIONS = types.HttpRetryOptions(initial_delay=1, max_delay=3, attempts=30)
+IMG_PATH_1 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/project_paint.png"
 
 room_planner_agent = Agent(
     name="room_planner_agent",
@@ -19,7 +20,7 @@ room_planner_agent = Agent(
     - Find out how many rooms the user would like to paint and what we should call each room.
     - Based on the {{SELECTED_PAINT?}}, show the corresponding images
       in an img tag with a height attribute of 300px:
-        - Project Paint: https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/project_paint.png
+        - Project Paint: {IMG_PATH_1}
         - SureCoverage: https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/surecoverage.png
         - EcoGreen: https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/ecogreens.png
         - Forever Paint: https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/forever_paint.png
