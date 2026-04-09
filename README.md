@@ -7,9 +7,14 @@
 
 ---
 
-```text
-Cymbal Shops is an American retail chain headquartered in Minneapolis that sells housewares, electronics, and clothing.
 
-Cymbal Shops has expanded into Europe and launched a new Paint Department. It plans to use its new online presence to streamline the way people shop for paint for DIY home renovation projects.
-```
+* Cymbal Shops is an American retail chain headquartered in Minneapolis that sells housewares, electronics, and clothing.
+* Cymbal Shops has expanded into Europe and launched a new Paint Department. It plans to use its new online presence to streamline the way people shop for paint for DIY home renovation projects.
+
+We need to develop an agent, Paint Agent, to help the user:
+- select a paint product based on Cymbal Shops' paint product datasheets
+- choose a color from the selected product line
+- determine how much paint is needed by room dimensions
+- calculate the price based on the selected options
+
 
