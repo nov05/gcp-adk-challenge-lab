@@ -8,7 +8,11 @@ from .sub_agents.coverage_calculator.agent import coverage_calculator_agent
 load_dotenv()
 
 RETRY_OPTIONS = types.HttpRetryOptions(initial_delay=1, max_delay=3, attempts=30)
-IMG_PATH_1 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/project_paint.png"
+# IMG_PATH_1 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/project_paint.png"
+IMG_PATH_1 = f"{ASSETS_PATH}/project_paint.png"
+IMG_PATH_2 = f"{ASSETS_PATH}/surecoverage.png"
+IMG_PATH_3 = f"{ASSETS_PATH}/ecogreens.png"
+IMG_PATH_4 = f"{ASSETS_PATH}/forever_paint.png"
 
 room_planner_agent = Agent(
     name="room_planner_agent",
