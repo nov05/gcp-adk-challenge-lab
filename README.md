@@ -35,7 +35,8 @@ root_agent
 
 The agent atlas in the ADK Dev UI:  
 <img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/2026-04-09%2018_33_17-local%20testing%20in%20ADK%20web%20UI.jpg" width=800>    
-<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/2026-04-09%2018_34_10-agent%20atlas.jpg" width=600>  
+
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/2026-04-09%2018_34_10-agent%20atlas.jpg" width=800>  
 
 <br><br>   
 
