@@ -22,6 +22,17 @@ We need to develop an agent, Paint Agent, to help the user:
 
 <img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/agent_atlas.jpg" width=600>    
 
+```bash
+          root_agent
+          ├─ tools:
+          │   ├─ AgentTool(search_agent)  # handles all search queries
+          │   └─ set_session_value
+          └─ sub_agents:
+              └─ room_planner_agent
+                   └─ sub_agents:
+                       └─ coverage_calculator
+```
+
 <br><br>   
 
 ---   
