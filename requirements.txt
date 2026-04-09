@@ -1,0 +1,4 @@
+bs4==0.0.2
+beautifulsoup4==4.13.4
+chainlit==2.7.1.1
+google-cloud-aiplatform[agent_engines,adk]>=1.112
