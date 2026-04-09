@@ -47,7 +47,7 @@ cloud_logging_client.setup_logging()
 root_agent = Agent(
     name="product_selector",
     model=Gemini(model=os.getenv("MODEL"), retry_options=RETRY_OPTIONS),
-    instruction="""
+    instruction=f"""
     You represent the paint department of Cymbal Shops.
 
     Information about Cymbal Shops paint, including prices, is available to you
