@@ -7,7 +7,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/agent_atlas.jpg" width=300>    
+<img src=https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/company_logo.jpg width=300>   
 
 * Cymbal Shops is an American retail chain headquartered in Minneapolis that sells housewares, electronics, and clothing.
 * Cymbal Shops has expanded into Europe and launched a new Paint Department. It plans to use its new online presence to streamline the way people shop for paint for DIY home renovation projects.
@@ -18,6 +18,9 @@ We need to develop an agent, Paint Agent, to help the user:
 - determine how much paint is needed by room dimensions
 - calculate the price based on the selected options
 
+✅ **Agent atlas:**  
+
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/agent_atlas.jpg" width=600>    
 
 <br><br>   
 
