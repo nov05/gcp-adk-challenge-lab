@@ -9,8 +9,8 @@ import asyncio
 load_dotenv()
 project_id = os.environ["GOOGLE_CLOUD_PROJECT"]
 location = os.environ["GOOGLE_CLOUD_LOCATION"]
+agent_resource_name = os.environ["AGENT_RESOURCE_NAME"]  ## Added by Nov05
 bucket_name = f"gs://{project_id}-bucket"
-agent_resource_name = os.environ["AGENT_RESOURCE_NAME"]
 
 client = vertexai.Client(
     project=project_id,
