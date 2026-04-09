@@ -32,6 +32,8 @@ room_planner_agent = Agent(
         - SureCoverage: {img_path_2}
         - EcoGreen: {img_path_3}
         - Forever Paint: {img_path_4}
+    - If the user has NOT selected a paint yet, show all available paint options with images 
+      so they can compare.
     - Have them pick a color for each room. 
     - To calculate the paint needed for each room, transfer to the 'coverage_calculator_agent'
     """,
