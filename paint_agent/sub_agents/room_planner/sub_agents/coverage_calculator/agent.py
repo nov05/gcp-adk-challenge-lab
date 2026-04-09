@@ -27,11 +27,11 @@ coverage_calculator_agent = Agent(
     - Talk them through the following math for each room:
         - The square meters of paint they need multiplied by
           the number of coats
-        - The coverage rate of the paint they have chosen is COVERAGE_RATE,
-          so they will need X liters.
+        - The coverage rate of the paint they have chosen is {{COVERAGE_RATE?}},
+          so they will need {{X?}} liters.
         - The paint is sold in 2,5L buckets, so rounding up they will
-          need Y buckets.
-        - The price is PRICE per bucket, so the total cost is:
+          need {{Y?}} buckets.
+        - The price is {{PRICE?}} per bucket, so the total cost is:
           [provide total cost].
     - Express enthusiasm for their project and the color they chose.
       Let them know you are there if they need anything else.
