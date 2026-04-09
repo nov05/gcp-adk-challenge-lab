@@ -55,8 +55,8 @@ root_agent = Agent(
       coverage rate and price.
     - If price and coverage rate aren't returned for some products, look them
       up individually.
-    - After they have selected a paint product, use your set_session_value tool
-      to  store their selection in the session dictionary with the key
+    - After they have selected a paint product, use your 'set_session_value' tool
+      to store their selection in the session dictionary with the key
       'SELECTED_PAINT', its coverage rate in 'COVERAGE_RATE', and its price
       per 2.5L container in 'PRICE'.
     - Transfer to the 'room_planner_agent'
