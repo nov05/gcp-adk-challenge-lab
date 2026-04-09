@@ -7,7 +7,6 @@ from .sub_agents.coverage_calculator.agent import coverage_calculator_agent
 
 load_dotenv()
 
-RETRY_OPTIONS = types.HttpRetryOptions(initial_delay=1, max_delay=3, attempts=30)
 # img_path_1 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/project_paint.png"
 # img_path_2 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/surecoverage.png"
 # img_path_3 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/ecogreens.png"
@@ -17,6 +16,8 @@ img_path_1 = f"{assets_path}/project_paint.png"
 img_path_2 = f"{assets_path}/surecoverage.png"
 img_path_3 = f"{assets_path}/ecogreens.png"
 img_path_4 = f"{assets_path}/forever_paint.png"
+
+RETRY_OPTIONS = types.HttpRetryOptions(initial_delay=1, max_delay=3, attempts=30)
 
 room_planner_agent = Agent(
     name="room_planner_agent",
