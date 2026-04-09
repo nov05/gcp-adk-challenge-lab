@@ -7,6 +7,7 @@
 
 ---
 
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/agent_atlas.jpg" width=300>    
 
 * Cymbal Shops is an American retail chain headquartered in Minneapolis that sells housewares, electronics, and clothing.
 * Cymbal Shops has expanded into Europe and launched a new Paint Department. It plans to use its new online presence to streamline the way people shop for paint for DIY home renovation projects.
