@@ -18,5 +18,9 @@ We need to develop an agent, Paint Agent, to help the user:
 - calculate the price based on the selected options
 
 
+<br><br>   
+
+---   
+
 ## 👉 Logs:
 2026-04-09 repo created
