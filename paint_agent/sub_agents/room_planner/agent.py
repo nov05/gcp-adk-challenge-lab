@@ -8,15 +8,15 @@ from .sub_agents.coverage_calculator.agent import coverage_calculator_agent
 load_dotenv()
 
 RETRY_OPTIONS = types.HttpRetryOptions(initial_delay=1, max_delay=3, attempts=30)
-# IMG_PATH_1 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/project_paint.png"
-# IMG_PATH_2 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/surecoverage.png"
-# IMG_PATH_3 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/ecogreens.png"
-# IMG_PATH_4 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/forever_paint.png"
-ASSETS_PATH = os.getenv("ASSETS_PATH")
-IMG_PATH_1 = f"{ASSETS_PATH}/project_paint.png"
-IMG_PATH_2 = f"{ASSETS_PATH}/surecoverage.png"
-IMG_PATH_3 = f"{ASSETS_PATH}/ecogreens.png"
-IMG_PATH_4 = f"{ASSETS_PATH}/forever_paint.png"
+# img_path_1 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/project_paint.png"
+# img_path_2 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/surecoverage.png"
+# img_path_3 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/ecogreens.png"
+# img_path_4 = f"https://storage.cloud.google.com/{os.getenv("RESOURCES_BUCKET")}/forever_paint.png"
+assets_path = os.getenv("ASSETS_PATH")
+img_path_1 = f"{assets_path}/project_paint.png"
+img_path_2 = f"{assets_path}/surecoverage.png"
+img_path_3 = f"{assets_path}/ecogreens.png"
+img_path_4 = f"{assets_path}/forever_paint.png"
 
 room_planner_agent = Agent(
     name="room_planner_agent",
@@ -28,10 +28,10 @@ room_planner_agent = Agent(
     - Find out how many rooms the user would like to paint and what we should call each room.
     - Based on the {{SELECTED_PAINT?}}, show the corresponding images
       in an img tag with a height attribute of 300px:
-        - Project Paint: {IMG_PATH_1}
-        - SureCoverage: {IMG_PATH_2}
-        - EcoGreen: {IMG_PATH_3}
-        - Forever Paint: {IMG_PATH_4}
+        - Project Paint: {img_path_1}
+        - SureCoverage: {img_path_2}
+        - EcoGreen: {img_path_3}
+        - Forever Paint: {img_path_4}
     - Have them pick a color for each room. 
     - To calculate the paint needed for each room, transfer to the 'coverage_calculator_agent'
     """,
