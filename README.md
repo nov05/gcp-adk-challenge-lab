@@ -1,4 +1,4 @@
-# 🟢 Google Skills Lab - ****   
+# 🟢 Google Skills Lab - **Deploy an Agent with Agent Development Kit (ADK): Challenge Lab**     
 
 * Lab - https://www.skills.google/paths/3273/course_templates/1445/labs/619098
 * Notes - https://docs.google.com/document/d/1zKgpvbAlrJetEszvkCvFR6_xovwx1MckBqaLIhis2T8
