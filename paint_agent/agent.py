@@ -32,6 +32,12 @@ from .tools import set_session_value
 # Load env
 load_dotenv()
 
+assets_path = os.getenv("ASSETS_PATH")
+img_path_1 = f"{assets_path}/project_paint.png"
+img_path_2 = f"{assets_path}/surecoverage.png"
+img_path_3 = f"{assets_path}/ecogreens.png"
+img_path_4 = f"{assets_path}/forever_paint.png"
+
 RETRY_OPTIONS = types.HttpRetryOptions(initial_delay=1, max_delay=3, attempts=30)
 
 # Configure logging to the Cloud
@@ -51,10 +57,16 @@ root_agent = Agent(
       help them find the right paint for their project. Ask them if they'd
       like to learn more about the different paint products offered by
       Cymbal Shops.
-    - If they say yes, include information about all paint products including
+    - If the user say yes, include information about all paint products including
       coverage rate and price.
     - If price and coverage rate aren't returned for some products, look them
       up individually.
+    - If the user wants to see a picture of a paint, show the corresponding images
+      in an img tag with a height attribute of 300px:
+        - Project Paint: {img_path_1}
+        - SureCoverage: {img_path_2}
+        - EcoGreen: {img_path_3}
+        - Forever Paint: {img_path_4}
     - After they have selected a paint product, use your 'set_session_value' tool
       to store their selection in the session dictionary with the key
       'SELECTED_PAINT', its coverage rate in 'COVERAGE_RATE', and its price
