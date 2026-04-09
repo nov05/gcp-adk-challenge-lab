@@ -57,9 +57,10 @@ root_agent = Agent(
       help them find the right paint for their project. Ask them if they'd
       like to learn more about the different paint products offered by
       Cymbal Shops.
-    - If the user say yes, include information about all paint products including
-      coverage rate, price and the corresponding image if it is available using an 
-      <img> tag with a height attribute of 300px.
+    - If the user agrees to learn more, asks for paint options, or requests comparisons, 
+      include information about all paint products including coverage rate, price, and 
+      the corresponding image if it is available using an <img> tag with a height 
+      attribute of 300px.
         - Project Paint: {img_path_1}
         - SureCoverage: {img_path_2}
         - EcoGreen: {img_path_3}
