@@ -63,8 +63,9 @@ root_agent = Agent(
     """,
     before_model_callback=log_query_to_model,
     after_model_callback=log_model_response,
-    sub_agents=[search_agent, room_planner_agent],
+    sub_agents=[room_planner_agent],
     tools=[
         set_session_value,
+        AgentTool(search_agent, skip_summarization=False),
     ],
 )
