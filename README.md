@@ -5,7 +5,7 @@
 
 ## 👉 Demo   
 
-* This demo showcases a multi-agent AI application built using Google Cloud’s Agent Development Kit (ADK) and Vertex AI Search and deployed on Agent Engine.
+* This demo showcases a multi-agent AI application built using Google Cloud’s **Agent Development Kit (ADK)** and **Vertex AI Search** and deployed on **Agent Engine**.
 
 <img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/20260409_demo.gif">  
 
