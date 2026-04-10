@@ -38,6 +38,38 @@ The agent atlas in the ADK Dev UI:
 
 <img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/2026-04-09%2018_34_10-agent%20atlas.jpg" width=800>  
 
+👉 Test content:  
+```text
+Hello!
+```
+```text
+Yes.
+```
+```text
+I'd like to use Forever Paint
+```
+```text
+Two rooms. The living room and a baby's room.
+```
+```text
+"Sunlight through a canvas tent" for the baby's room and "Coffee Cream" for the living room.
+```
+```text
+The living room is 5m by 4m. 2.5m high. 1 door, 3 windows.
+```
+```text
+Two coats.
+```
+```text
+The baby's room is 3m by 3m. 2.5m high. 1 door, 1 window.
+```
+```text
+What would be the total cost for painting two rooms?   
+```
+```text
+Thanks! Bye!
+```
+
 <br><br>   
 
 ---   
