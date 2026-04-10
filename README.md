@@ -18,7 +18,7 @@ We need to develop an agent, Paint Agent, to help the user:
 - determine how much paint is needed by room dimensions
 - calculate the price based on the selected options
 
-✅ **Agent atlas:**  
+### 👉 **Agent atlas:**  
 
 <img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/agent_atlas.jpg" width=600>    
 
@@ -38,7 +38,8 @@ The agent atlas in the ADK Dev UI:
 
 <img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/2026-04-09%2018_34_10-agent%20atlas.jpg" width=800>  
 
-👉 Test content:  
+### 👉 Test content:  
+
 ```text
 Hello!
 ```
