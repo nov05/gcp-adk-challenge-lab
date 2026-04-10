@@ -18,7 +18,7 @@
 * The system uses a modular multi-agent architecture:
     - A root agent manages user interaction and product selection
     - A search agent **retrieves paint information from [a product datasheet PDF](https://github.com/nov05/pictures/blob/master/gcp-adk-challenge-lab/assets/Cymbal_Shops_Paint_Datasheets.pdf)** using Vertex AI Search
-    - A room planner agent handles room dimentions from user inputs
+    - A room planner agent handles room dimensions from user inputs
     - A coverage calculator agent computes paint requirements
 * The agent also leverages session state to persist user selections across steps, enabling a smooth, conversational workflow from product discovery to final cost estimation.
 * This demo is deployed via Agent Engine and accessed through a Chainlit web interface.
