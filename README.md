@@ -3,10 +3,12 @@
 * Lab - https://www.skills.google/paths/3273/course_templates/1445/labs/619098
 * Notes - https://docs.google.com/document/d/1zKgpvbAlrJetEszvkCvFR6_xovwx1MckBqaLIhis2T8
 
-👉 Demo
-<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/20260409_demo.gif">  
+## 👉 Demo   
 
 * This demo showcases a multi-agent AI application built using Google Cloud’s Agent Development Kit (ADK) and deployed on Agent Engine.
+
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-challenge-lab/20260409_demo.gif">  
+
 * The “Paint Agent” helps users plan home painting projects by:
     - Recommending paint products based on product data
     - Displaying visual options to support decision-making
